@@ -1,0 +1,22 @@
+.navbar {
+  box-shadow: 0px 1px 0px 0px #7f7f7f94;
+  padding: 15px 0px;
+  font-family: "Chivo";
+  font-weight: 400;
+}
+.navbar .navbar-nav {
+  gap: 22px;
+}
+.nav-link {
+  color: #121212;
+}
+.navbar .logo {
+  width: 153.92px;
+  height: auto;
+}
+
+@media screen and (max-width: 1200px) {
+  .navbar .navbar-nav {
+    gap: 5px;
+  }
+}
